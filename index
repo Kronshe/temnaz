@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Сайт</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прокручиваемый фон</title>
+    <style>
+        body {
+            height: 3000px; /* Задаем высоту страницы для прокрутки */
+            background-image: url('1.jpg'); /* Фоновое изображение */
+            background-attachment: scroll; /* Позволяет фону прокручиваться */
+        }
+    </style>
+</head>
+<body>
+    <h1>Пример страницы с прокручиваемым фоном</h1>
+    <p>Прокручивайте страницу вниз, и фон будет двигаться.</p>
+</body>
+</html>
+<body>
+    
+    <header>
+        <h1>Добро пожаловать на мой сайт!</h1>
+        <a href="https://store.steampowered.com/app/1262350/SIGNALIS/" class="button">po sesbim?</a>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>О нашем проекте</h2>
+            <p>Здесь будет текст о вашем сайте.</p>
+        </section>
+    </main>
+
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
